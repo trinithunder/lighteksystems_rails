@@ -53,5 +53,5 @@ test:
 production:
   <<: *default
   database: lighteksystems_rails_production
-  username: lighteksystems_rails
+  username: lighteksystems_lightek
   password: <%= ENV["LIGHTEKSYSTEMS_RAILS_DATABASE_PASSWORD"] %>
