@@ -53,6 +53,10 @@ gem "bootsnap", require: false
 #gem "passenger", ">= 5.3.2", require: "phusion_passenger/rack_handler"
 gem "passenger", ">= 5.3.2"
 
+# Devise
+gem 'devise'
+
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
